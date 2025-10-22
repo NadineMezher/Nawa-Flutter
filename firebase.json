@@ -1,0 +1,30 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "nawa-project-124a5",
+                    "appId": "1:672906198867:android:12ec48ad8173cf7051aba6",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "ios": {
+                "default": {
+                    "projectId": "nawa-project-124a5",
+                    "appId": "1:672906198867:ios:55c2bd4afb4fb0ea51aba6",
+                    "uploadDebugSymbols": false,
+                    "fileOutput": "ios/Runner/GoogleService-Info.plist"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "nawa-project-124a5",
+                    "configurations": {
+                        "android": "1:672906198867:android:12ec48ad8173cf7051aba6",
+                        "ios": "1:672906198867:ios:55c2bd4afb4fb0ea51aba6"
+                    }
+                }
+            }
+        }
+    }
+}
