@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:672906198867:android:796f6ae5421fc8cd51aba6",
+        "mobilesdk_app_id": "1:672906198867:android:12ec48ad8173cf7051aba6",
         "android_client_info": {
-          "package_name": "com.example.nawa"
+          "package_name": "com.nawa.mobile"
         }
       },
       "oauth_client": [],
@@ -26,9 +26,9 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:672906198867:android:12ec48ad8173cf7051aba6",
+        "mobilesdk_app_id": "1:672906198867:android:6f630ba8a726627851aba6",
         "android_client_info": {
-          "package_name": "com.nawa.mobile"
+          "package_name": "com.nawa.mobile.dev"
         }
       },
       "oauth_client": [],

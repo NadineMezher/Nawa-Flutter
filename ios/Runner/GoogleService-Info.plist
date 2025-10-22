@@ -9,7 +9,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.nawa.mobile</string>
+	<string>com.nawa.mobile.dev</string>
 	<key>PROJECT_ID</key>
 	<string>nawa-project-124a5</string>
 	<key>STORAGE_BUCKET</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:672906198867:ios:55c2bd4afb4fb0ea51aba6</string>
+	<string>1:672906198867:ios:6ab550ffd95e5d4751aba6</string>
 </dict>
 </plist>
