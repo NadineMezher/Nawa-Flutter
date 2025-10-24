@@ -42,6 +42,8 @@ dependencies:
   dio: ^5.9.0
   graphql: ^5.2.3
   responsive_builder: ^0.7.1
+  firebase_remote_config: ^6.1.0
+  get_it: ^8.2.0
 
 dev_dependencies:
   flutter_test:
