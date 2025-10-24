@@ -31,9 +31,6 @@ class BottomNavigationView extends StatelessWidget {
               type: BottomNavigationBarType.fixed,
               backgroundColor: Colors.white,
               elevation: 0,
-              // Remove shadow
-              // selectedItemColor: AppColors.primaryColor,
-              // unselectedItemColor: AppColors.secondaryColor,
               currentIndex: currentIndex,
               onTap: (index) => context.read<BottomNavigationCubit>().updatedIndex(index),
               items: [
