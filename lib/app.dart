@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'core/global_bloc/remote_config/remote_config_cubit.dart';
 import 'core/utils/app_routing/app_router.dart';
 import 'core/utils/theme/app_theme.dart' show AppTheme;
 import 'presentation/bottom_navigation/bloc/bottom_navigation_cubit.dart';
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
+        BlocProvider<RemoteConfigCubit>(create: (_) => RemoteConfigCubit()..fetchRemoteConfigData()),
         BlocProvider<HomeBloc>(create: (_) => HomeBloc()),
         BlocProvider<BottomNavigationCubit>(create: (_) => BottomNavigationCubit()),
       ],
